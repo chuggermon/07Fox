@@ -34,6 +34,7 @@
     --toolbarbutton-active-background: hsla(240,5%,5%,.15) !important;
     --autocomplete-popup-highlight-background: Highlight !important;
     --autocomplete-popup-highlight-color: HighlightText !important;
+	--tabstrip-inner-border: 0px none !important;
 }
 
 /* Toolbar Skins - Remove if you want! */
@@ -57,7 +58,7 @@
 /* Native Appearance */
 toolbox, toolbar, toolbarbutton:not(#sidebar-close):not(#sidebar-switcher-target):not(#PlacesChevron):not(#tiptab_william_wong-BAP):not(#unified-extensions-button):not(#tabs-newtab-button):not(#reload-button):not(#stop-button):not(#back-button):not(#forward-button):not(#go-button):not(#PanelUI-menu-button):not(#_fe8cab45-aaee-45f8-8765-781e0ebea300_-BAP)
 {
-    color-scheme: light !important;
+    color-scheme: dark !important;
 	-moz-appearance: auto !important;
     border: 0 !important;
     box-shadow: none !important;
@@ -1172,7 +1173,6 @@ color: #B4B4B4 !important;
 /* Bookmarks toolbar */
 #PersonalToolbar {
   order: 2 !important;
-  color: white !important;
 }
 
 /* Menu bar */
