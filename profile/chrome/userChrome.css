@@ -34,6 +34,7 @@
     --toolbarbutton-active-background: var(hsla(240,5%,5%,.15)) !important;
     --autocomplete-popup-highlight-background: Highlight !important;
     --autocomplete-popup-highlight-color: HighlightText !important;
+	--tabstrip-inner-border: 0px none !important;
 }
 
 /* Toolbar Skin - Remove if you want! 
