@@ -41,4 +41,5 @@ Press the "Open Folder" button next to it and it should open the directory to th
 I added an experimental dark mode modeled after Windows Media Player 11. To use it, follow the instructions below but use the chrome folder inside 'profile - Dark'.
 
 ![07Fox Dark Mode with Retrobar and Stardock WindowBlinds eXperience11 skin applied](https://github.com/chuggermon/07Fox/blob/main/07Fox-dark-example.png)
-<p align="center"> <i>07Fox Dark Mode with Retrobar and Stardock WindowBlinds eXperience11 skin applied. Windows Media Player with WMP 11 skin for comparison.</i></p>
+<p align="center"> <i>07Fox Dark Mode with Retrobar and Stardock WindowBlinds eXperience11 skin applied.</i></p>
+<p align="center"> <i>Windows Media Player with WMP 11 skin for comparison.</i></p>
