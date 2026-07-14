@@ -1172,6 +1172,7 @@ color: #B4B4B4 !important;
 /* Bookmarks toolbar */
 #PersonalToolbar {
   order: 2 !important;
+  color: white !important;
 }
 
 /* Menu bar */
