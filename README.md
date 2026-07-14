@@ -38,4 +38,4 @@ Press the "Open Folder" button next to it and it should open the directory to th
 
 ## New Additions
 
-I added an experimental dark mode modeled after Windows Media Player 11. To use it, follow the instructions below but replace 'profile' with 'profile - Dark' (be sure to rename 'profile - Dark' to 'profile').
+I added an experimental dark mode modeled after Windows Media Player 11. To use it, follow the instructions below but use the chrome folder inside 'profile - Dark'.
