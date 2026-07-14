@@ -3,6 +3,8 @@
 ![07Fox with Retrobar and Stardock WindowBlinds eXperience11 skin applied](https://github.com/chuggermon/07Fox/blob/main/07Fox-example.png)
 <p align="center"> <i>07Fox with Retrobar and Stardock WindowBlinds eXperience11 skin applied</i></p>
 
+## About
+
 07Fox was a custom theme for Mozilla Firefox made by [WinClassic user travis](https://winclassic.net/thread/1524/07fox-internet-explorer-mozilla-firefox) that made Firefox resemble Internet Explorer 7.
 
 This repository serves as a fork of this CSS theme so that it remains compatible with the latest Firefox versions (152.0.5 at the time of writing).
