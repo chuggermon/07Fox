@@ -248,3 +248,22 @@ menupopup {
 ADDED:
 
 --tabstrip-inner-border: 0px none !important;
+
+
+[FIX MARGIN FOR TAB TEXT IN VER. 154]
+
+REPLACED:
+
+.tabbrowser-tab[selected] .tab-content {
+    margin-top: -1px !important;
+}
+
+WITH:
+
+.tabbrowser-tab .tab-content {
+    margin-top: -3px !important;
+}
+
+.tabbrowser-tab[selected] .tab-content {
+    margin-top: -4px !important;
+}
