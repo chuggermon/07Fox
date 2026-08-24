@@ -128,7 +128,7 @@ max-height: calc(var(--tab-min-height) + 3px) !important;
 }
 
 .tab-background, .tab-secondary-label {
-    display: none !important;
+display: none !important;
 }
 
 #TabsToolbar {
@@ -238,8 +238,8 @@ background-image: linear-gradient(to bottom, #EDF3FC 0%, #C6DDF7 36%, #99C6EE 36
     right: -3px;
 }
 
-.tabbrowser-tab[selected] .tab-content {
-    margin-top: -1px !important;
+.tabbrowser-tab .tab-content {
+    margin-top: -3px !important;
 }
 
 .tabbrowser-tab[selected] .tab-close-button {
