@@ -272,8 +272,8 @@ background-image: linear-gradient(to bottom, #9097a8 0%, #4e586c 36%, #191e27 36
     margin-top: -3px !important;
 }
 
-.tabbrowser-tab[selected] .tab-close-button {
-    margin-top: -1px !important;
+.tabbrowser-tab[selected] .tab-content {
+    margin-top: -4px !important;
 }
 
 .tab-content {
