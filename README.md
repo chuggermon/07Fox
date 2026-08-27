@@ -38,7 +38,7 @@ Press the "Open Folder" button next to it and it should open the directory to th
 
 ## Known Issues
 
-Dragging, grouping and pinning tabs looks broken. Hope to one day fix this issue but for now, it is what it is.
+Dragging, grouping and pinning tabs result in unwanted gaps or graphical glitches. Hope to one day fix this issue but for now, it is what it is.
 
 ## New Additions
 
