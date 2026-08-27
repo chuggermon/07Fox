@@ -1004,10 +1004,6 @@ border-radius: 0 !important;
 margin-top: -8px !important;
 }
 
-.tabbrowser-tab:first-of-type:last-of-type .tab-close-button {
-    display: none !important;
-}
-
 .tabbrowser-tab:first-of-type:last-of-type {
     max-width: 300px !important;
 }
