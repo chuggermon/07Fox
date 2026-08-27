@@ -36,6 +36,10 @@ Then copy the "chrome" folder inside /profile to %appdata%\Mozilla\Firefox\Profi
 If you don't know which profile you're using since there is many, go to about:support on Firefox and look for the column that says "Profile Folder".
 Press the "Open Folder" button next to it and it should open the directory to the profile you're currently using. And you can copy the files inside /profile to it.
 
+## Known Issues
+
+Dragging, grouping and pinning tabs looks broken. Hope to one day fix this issue but for now, it is what it is.
+
 ## New Additions
 
 I added an experimental dark mode modeled after Windows Media Player 11. To use it, follow the instructions below but use the chrome folder inside 'profile - Dark'.
