@@ -138,7 +138,6 @@ margin: 3px !important;
 
 /* Tabs Toolbar */
 #TabsToolbar, #tabbrowser-tabs {
---tab-min-height: 27px !important;
 border-inline-start: 0 !important;
 margin-inline-start: 0 !important;
 }
@@ -147,8 +146,8 @@ margin-inline-start: 0 !important;
 margin-left: -3px !important;
 }
 
-#TabsToolbar > hbox, #TabsToolbar-customization-target  {
-max-height: calc(var(--tab-min-height) + 3px) !important;
+#TabsToolbar, #TabsToolbar-customization-target  {
+max-height: calc(var(min-content) + 3px) !important;
 }
 
 .tab-background, .tab-secondary-label {
@@ -168,11 +167,11 @@ padding-top: 3px !important;
     content: '';
     position: absolute !important;
     left: 0;
-    bottom: 0;
+    bottom: -2px;
     width: 100%;
-    height: 1px;
+    height: 3px;
     background: #8a95b3;
-    box-shadow: 0 -1px 0 #2f4462;
+    border-top: 1px solid #2f4462;
 	z-index: 1;
 }
 
@@ -276,6 +275,7 @@ background-image: linear-gradient(to bottom, #9097a8 0%, #4e586c 36%, #191e27 36
     position: absolute;
     bottom: 0;
     left: -3px;
+	z-index: 4;
 }
 
 .tabbrowser-tab[selected]::after {
@@ -287,14 +287,7 @@ background-image: linear-gradient(to bottom, #9097a8 0%, #4e586c 36%, #191e27 36
     position: absolute;
     bottom: 0;
     right: -3px;
-}
-
-.tabbrowser-tab .tab-content {
-    margin-top: -3px !important;
-}
-
-.tabbrowser-tab[selected] .tab-content {
-    margin-top: -4px !important;
+	z-index: 4;
 }
 
 .tab-content {
@@ -371,7 +364,6 @@ list-style-image: none !important;
 background-color: transparent !important;
 width: 16px !important;
 height: 16px !important;
-margin-bottom: 4px;
 }
 
 #tabs-newtab-button:hover .toolbarbutton-icon {
@@ -853,7 +845,12 @@ transform: translateY(-2px) !important;
 list-style-image: url('mail.png') !important;
 }
 
-/* Status Bar */
+#downloads-button, #home-button, #print-button, #preferences-button, #email-link-button, #bookmarks-menu-button, #library-button {
+height: 30px;
+align-self: center !important;
+}
+
+/* Status Bar 
 #statuspanel[inactive],
 #statuspanel {
 opacity: 1 !important;
@@ -906,6 +903,7 @@ height: 22px !important;
 width: 100% !important;
 margin-right: 10px !important;
 }
+*/
 
 :root[sizemode="fullscreen"] .browserStack > browser {
     padding: 0 !important;
@@ -914,8 +912,14 @@ margin-right: 10px !important;
 
 .browserStack > browser {
     margin-bottom: 22px !important;
-    box-shadow: inset -1px -1px 0 ThreeDHighlight, inset 1px 1px 0 ThreeDShadow, inset -2px -2px 0 ThreeDFace, inset 2px 2px 0 ThreeDDarkShadow !important;
-    padding: 2px !important;
+    box-shadow: inset -1px -1px 0 ThreeDHighlight, inset 1px 1px 0 ThreeDShadow, inset -2px -1px 0 ThreeDFace, inset 2px 1px 0 ThreeDDarkShadow !important;
+    padding: 1px 2px 1px 2px !important;
+}
+
+/* Erase statusbar*/
+
+.browserStack > browser {
+    margin-bottom: 0 !important;
 }
 
 #searchbar {
