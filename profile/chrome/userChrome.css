@@ -883,7 +883,7 @@ margin-right: 10px !important;
 
 .browserStack > browser {
     margin-bottom: 22px !important;
-    box-shadow: inset -1px -1px 0 ThreeDHighlight, inset 1px 1px 0 ThreeDShadow, inset -2px -1px 0 ThreeDFace, inset 2px 1px 0 ThreeDDarkShadow !important;
+    box-shadow: inset -1px -1px 0 white, inset 1px 0px 0 #aca899, inset 2px 1px 0 #716f64 !important;
     padding: 1px 2px 1px 2px !important;
 }
 
