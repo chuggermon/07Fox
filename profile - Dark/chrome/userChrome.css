@@ -107,10 +107,6 @@ margin-bottom: 1px !important;
 height: 21px !important;
 }
 
-menu:hover {
-background-color: #52525e !important;
-}
-
 #toolbar-menubar toolbaritem {
 -moz-appearance: menuitem !important;
 }
@@ -393,10 +389,6 @@ padding: 3px !important;
     background-position-y: -16px !important;
 }
 
-.bookmark-item:hover {
-	background-color: #52525e !important;
-}
-
 /* Address Bar */
 #urlbar-background,
 .searchbar-textbox{
@@ -580,23 +572,6 @@ background-position-x: calc(-25px * 1) !important;
 
 #go-button:active {
 background-position-x: calc(-25px * 3) !important;
-}
-
-#tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs]) > #tabbrowser-arrowscrollbox > .tabbrowser-tab[first-visible-unpinned-tab] {
-margin-inline-start: 0 !important;
-}
-
-.tabbrowser-tab[pinned="true"] .tab-icon-overlay {
-    top: unset !important;
-    inset-inline-end: unset !important;
-}
-
-.tabbrowser-tab[pinned="true"]:not(:hover) .tab-icon-overlay {
-    display: none !important;
-}
-
-.tabbrowser-tab[pinned="true"]:hover .tab-icon-image {
-    display: none !important;
 }
 
 /* Nav Toolbar */
