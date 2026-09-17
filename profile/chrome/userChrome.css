@@ -37,18 +37,17 @@
 	--tabstrip-inner-border: 0px none !important;
 }
 
-/* Toolbar Skin - Remove if you want! 
+/* Toolbar Skin - Remove if you want!
 
 #TabsToolbar {
     background-image: url('tabs-bg.png');
     background-repeat: repeat-x;
     background-position: right bottom;
     color: inherit;
-} */
+}
 
 /* Native Appearance */
-toolbox, toolbar, toolbarbutton:not(#sidebar-close):not(#sidebar-switcher-target):not(#PlacesChevron):not(#tiptab_william_wong-BAP):not(#unified-extensions-button):not(#tabs-newtab-button):not(#reload-button):not(#stop-button):not(#back-button):not(#forward-button):not(#go-button):not(#PanelUI-menu-button):not(#_fe8cab45-aaee-45f8-8765-781e0ebea300_-BAP),
-menu, menuitem, menucaption {
+toolbox, toolbar, toolbarbutton:not(#sidebar-close):not(#sidebar-switcher-target):not(#PlacesChevron):not(#tiptab_william_wong-BAP):not(#unified-extensions-button):not(#tabs-newtab-button):not(#reload-button):not(#stop-button):not(#back-button):not(#forward-button):not(#go-button):not(#PanelUI-menu-button):not(#_fe8cab45-aaee-45f8-8765-781e0ebea300_-BAP) {
     -moz-appearance: auto !important;
     border: 0 !important;
     box-shadow: none !important;
@@ -82,10 +81,6 @@ margin-bottom: 1px !important;
 
 #menubar-items menu {
 height: 21px !important;
-}
-
-menu:hover {
-background-color: #e5f3fe !important;
 }
 
 #toolbar-menubar toolbaritem {
@@ -364,10 +359,6 @@ padding: 3px !important;
     background-position-y: -16px !important;
 }
 
-.bookmark-item:hover {
-	background-color: #f2f2f2 !important;
-}
-
 /* Address Bar */
 #urlbar-background,
 .searchbar-textbox{
@@ -551,23 +542,6 @@ background-position-x: calc(-25px * 1) !important;
 
 #go-button:active {
 background-position-x: calc(-25px * 3) !important;
-}
-
-#tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs]) > #tabbrowser-arrowscrollbox > .tabbrowser-tab[first-visible-unpinned-tab] {
-margin-inline-start: 0 !important;
-}
-
-.tabbrowser-tab[pinned="true"] .tab-icon-overlay {
-    top: unset !important;
-    inset-inline-end: unset !important;
-}
-
-.tabbrowser-tab[pinned="true"]:not(:hover) .tab-icon-overlay {
-    display: none !important;
-}
-
-.tabbrowser-tab[pinned="true"]:hover .tab-icon-image {
-    display: none !important;
 }
 
 /* Nav Toolbar */
