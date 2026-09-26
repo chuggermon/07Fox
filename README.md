@@ -1,4 +1,4 @@
-# 07Fox+
+# 07Fox
 
 ![07Fox with Retrobar and Stardock WindowBlinds eXperience11 skin applied](https://github.com/chuggermon/07Fox/blob/main/07Fox-example.png)
 <p align="center"> <i>07Fox with Retrobar and Stardock WindowBlinds eXperience11 skin applied</i></p>
