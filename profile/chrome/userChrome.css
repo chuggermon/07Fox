@@ -15,7 +15,6 @@
     --toolbarbutton-vertical-text-padding: calc(var(--toolbarbutton-inner-padding) - 1px) !important;
     --toolbarbutton-border-radius: 2px !important;
     --toolbarbutton-icon-fill-opacity: 1 !important;
-    --panel-separator-color: ThreeDLightShadow !important;
     --arrowpanel-background: -moz-Field !important;
     --arrowpanel-color: -moz-FieldText !important;
     --arrowpanel-border-color: ThreeDShadow !important;
