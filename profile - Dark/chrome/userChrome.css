@@ -389,7 +389,7 @@ padding: 3px !important;
     background-position-y: -16px !important;
 }
 
-/* Address Bar */
+/* Address Bar 
 #urlbar-background,
 .searchbar-textbox{
     box-shadow: none !important;
@@ -533,6 +533,7 @@ margin-inline-end: 6px !important;
 .urlbarView-no-wrap {
     width: 60% !important;
 }
+*/
 
 #favimginurlbar[style='width: 16px; height: 16px; margin: 3px; list-style-image: url("chrome://branding/content/icon32.png");'] {
 list-style-image: url('blank-page.png') !important;
