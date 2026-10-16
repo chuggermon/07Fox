@@ -25,13 +25,13 @@ Almost all work was done by travis, with edits being made only to fix parts of t
 
 3. Set "ui.prefersReducedMotion" to "1" (In case you need to create it, select "Number"
 
-4. Restart Firefox.
-
 ### Insert chrome folder
 
-Copy the "chrome" folder inside /profile to %appdata%\Mozilla\Firefox\Profiles\<your profile>
+1. Copy the "chrome" folder inside /profile to %appdata%\Mozilla\Firefox\Profiles\<your profile>
 
-_If you don't know which profile you're using since there is many, go to about:support on Firefox and look for the column that says "Profile Folder", then press the "Open Folder" button next to it. It should open the directory to the profile you're currently using._
+2. Restart Firefox
+
+_(If you don't know which profile you're using since there is many, go to about:support on Firefox and look for the column that says "Profile Folder", then press the "Open Folder" button next to it. It should open the directory to the profile you're currently using.)_
 
 ### Customize Toolbar and Appearance
 
