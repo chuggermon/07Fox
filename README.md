@@ -33,6 +33,16 @@ Copy the "chrome" folder inside /profile to %appdata%\Mozilla\Firefox\Profiles\<
 
 _If you don't know which profile you're using since there is many, go to about:support on Firefox and look for the column that says "Profile Folder", then press the "Open Folder" button next to it. It should open the directory to the profile you're currently using._
 
+### Customize Toolbar and Appearance
+
+1. Right-click the toolbar and click "Customize Toolbar"
+
+2. Check "Title Bar" at the bottom"
+
+3. Arrange toolbar items according to the example screenshot or to your liking
+
+4. Turn on Compact mode in settings (Settings > Appearance > Window density)
+
 ## Known Issues
 
 Dragging tabs results in unwanted gap. Hope to one day fix this issue but for now, it is what it is.
