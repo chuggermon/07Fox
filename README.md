@@ -15,17 +15,19 @@ This repository serves as a fork of this CSS theme so that it remains compatible
 
 Almost all work was done by travis, with edits being made only to fix parts of the UI that broke with updates to Firefox. This theme is not entirely accurate as many compromises had to be made in order to maintain functionality.
 
-## Instructions (revised from travis's documents)
+## Instructions (Revised From travis's Documents)
 
-### Set about:config values
+### Set 'about:config' Values
 
-1. Set "toolkit.legacyUserProfileCustomizations.stylesheets" to "true"
+1. Type 'about:config" in the URL bar and press Enter
 
-2. Set "svg.context-properties.content.enabled" to "true"
+2. Set "toolkit.legacyUserProfileCustomizations.stylesheets" to "true"
 
-3. Set "ui.prefersReducedMotion" to "1" (In case you need to create it, select "Number"
+3. Set "svg.context-properties.content.enabled" to "true"
 
-### Insert chrome folder
+4. Set "ui.prefersReducedMotion" to "1" (If the value doesn't already exist, select "Number" before creating it)
+
+### Insert 'chrome' Folder
 
 1. Copy the "chrome" folder inside /profile to %appdata%\Mozilla\Firefox\Profiles\<your profile>
 
