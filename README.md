@@ -15,28 +15,23 @@ This repository serves as a fork of this CSS theme so that it remains compatible
 
 Almost all work was done by travis, with edits being made only to fix parts of the UI that broke with updates to Firefox. This theme is not entirely accurate as many compromises had to be made in order to maintain functionality.
 
-## Instructions (copied from travis's documents)
+## Instructions (revised from travis's documents)
 
-Go to about:config and search for 
+### Set about:config values
 
-"toolkit.legacyUserProfileCustomizations.stylesheets" 
+1. Set "toolkit.legacyUserProfileCustomizations.stylesheets" to "true"
 
-and set it to "true", then search for
+2. Set "svg.context-properties.content.enabled" to "true"
 
-"svg.context-properties.content.enabled"
+3. Set "ui.prefersReducedMotion" to "1" (In case you need to create it, select "Number"
 
-and set it to true, then search for
+4. Restart Firefox.
 
-"ui.prefersReducedMotion"
+### Insert chrome folder
 
-and set the value as "1" (you may need to create it, before you do it select number", then restart Firefox.
+Copy the "chrome" folder inside /profile to %appdata%\Mozilla\Firefox\Profiles\<your profile>
 
-Copy the files inside /ffroot to C:\Program Files\Mozilla Firefox (or wherever your Firefox installation is)
-
-Then copy the "chrome" folder inside /profile to %appdata%\Mozilla\Firefox\Profiles\<your profile>
-
-If you don't know which profile you're using since there is many, go to about:support on Firefox and look for the column that says "Profile Folder".
-Press the "Open Folder" button next to it and it should open the directory to the profile you're currently using. And you can copy the files inside /profile to it.
+_If you don't know which profile you're using since there is many, go to about:support on Firefox and look for the column that says "Profile Folder", then press the "Open Folder" button next to it. It should open the directory to the profile you're currently using._
 
 ## Known Issues
 
