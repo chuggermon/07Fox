@@ -9,7 +9,7 @@
 
 This repository serves as a fork of this CSS theme so that it remains compatible with the latest Firefox versions.
 
-**Latest compatible Firefox version: 157.0.1**
+**Latest compatible Firefox version: 158.0**
 
 ## Disclaimer
 
@@ -26,6 +26,8 @@ Almost all work was done by travis, with edits being made only to fix parts of t
 3. Set "svg.context-properties.content.enabled" to "true"
 
 4. Set "ui.prefersReducedMotion" to "1" (If the value doesn't already exist, select "Number" before creating it)
+
+5. Set "browser.nova.enabled" to "false"
 
 ### Insert 'chrome' Folder
 
