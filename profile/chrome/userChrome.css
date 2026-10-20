@@ -38,12 +38,12 @@
 
 /* Toolbar Skin - Remove if you want!
 
-#TabsToolbar {
-    background-image: url('tabs-bg.png');
+#TabsToolbar, #toolbar-menubar {
+    background-image: linear-gradient(to bottom, #b3c2ce 0%, #b3c2ce 1%, #F2F5FA 1%, #E5EAF5 36%, #CFD7EB 36%, #E9ECFA 100%) !important;
     background-repeat: repeat-x;
-    background-position: right bottom;
+    background-size: 100% 100%;
     color: inherit;
-}
+}*/
 
 /* Native Appearance */
 toolbox, toolbar, toolbarbutton:not(#sidebar-close):not(#sidebar-switcher-target):not(#PlacesChevron):not(#tiptab_william_wong-BAP):not(#unified-extensions-button):not(#tabs-newtab-button):not(#reload-button):not(#stop-button):not(#back-button):not(#forward-button):not(#go-button):not(#PanelUI-menu-button):not(#_fe8cab45-aaee-45f8-8765-781e0ebea300_-BAP) {
@@ -61,13 +61,12 @@ toolbox, toolbar, toolbarbutton:not(#sidebar-close):not(#sidebar-switcher-target
 
 #nav-bar {
 margin-bottom: 0px !important;
-box-shadow: 0 1px 0 #a0a0a0, 0 2px 0 #ffffff !important;
 position: relative;
 }
 
 #toolbar-menubar {
 margin-bottom: 0px !important;
-box-shadow: 0 1px 0 #85878c, 0 2px 0 #dcdfe4 !important;
+box-shadow: 0 1px 0 #b3c2ce, 0 -1px 0 #b3c2ce, 0 2px 0 #dae2e7 !important;
 position: relative;
 }
 
@@ -358,8 +357,17 @@ padding: 3px !important;
     background-position-y: -16px !important;
 }
 
-/* Address Bar
-#urlbar-background,
+/* Address Bar */
+#urlbar {
+	min-height: 0px !important;
+	height: 24px !important;
+}
+
+.urlbar-background, #searchbar {
+	border-radius: 0px !important;
+}
+
+/* #urlbar-background,
 .searchbar-textbox{
     box-shadow: none !important;
     border: 1px solid #96969D !important;
@@ -938,12 +946,12 @@ min-width: 17px !important;
 list-style-image: url('cheveron.png') !important;
 }
 
-#PlacesToolbar::before {
+/*#PlacesToolbar::before {
 content: 'Links';
 display: inline-block;
 line-height: 26px;
 margin-inline: 5px !important;
-}
+}*/
 
 #PlacesChevron .toolbarbutton-icon {
 padding: 0 !important;
