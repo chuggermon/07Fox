@@ -38,11 +38,10 @@
 
 /* Toolbar Skins - Remove if you want! */
 
-#TabsToolbar {
-    background-image: url('tabs-bg.png');
-    background-size: 100% 100%;
+#TabsToolbar, #toolbar-menubar {
+    background-image: linear-gradient(to bottom, #34394d 0%, #34394d 1%, #4f5774 1%, #373d4b 36%, #0f0f14 36%, #455876 100%);
     background-repeat: repeat-x;
-    background-position: right bottom;
+    background-size: 100% 100%;
     color: inherit;
 }
 
@@ -90,9 +89,14 @@ panelview {
 
 /* Restore Toolbar Borders */
 
+#nav-bar {
+margin-bottom: 0px !important;
+position: relative;
+}
+
 #toolbar-menubar, #nav-bar {
 margin-bottom: 0px !important;
-box-shadow: 0 1px 0 #96969d, 0 2px 0 #36363c !important;
+box-shadow: 0 1px 0 #96969d, 0 -1px 0 #96969d, 0 2px 0 #36363c !important;
 position: relative;
 }
 
@@ -388,8 +392,17 @@ padding: 3px !important;
     background-position-y: -16px !important;
 }
 
-/* Address Bar 
-#urlbar-background,
+/* Address Bar */
+#urlbar {
+	min-height: 0px !important;
+	height: 24px !important;
+}
+
+.urlbar-background, #searchbar {
+	border-radius: 0px !important;
+}
+
+/* #urlbar-background,
 .searchbar-textbox{
     box-shadow: none !important;
     border: 1px solid #96969D !important;
@@ -968,12 +981,12 @@ min-width: 17px !important;
 list-style-image: url('cheveron.png') !important;
 }
 
-#PlacesToolbar::before {
+/*#PlacesToolbar::before {
 content: 'Links';
 display: inline-block;
 line-height: 26px;
 margin-inline: 5px !important;
-}
+}*/
 
 #PlacesChevron .toolbarbutton-icon {
 padding: 0 !important;
