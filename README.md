@@ -27,7 +27,7 @@ Almost all work was done by travis, with edits being made only to fix parts of t
 
 4. Set "ui.prefersReducedMotion" to "1" (If the value doesn't already exist, select "Number" before creating it)
 
-5. Set "browser.nova.enabled" to "false"
+5. Set "browser.nova.enabled" to "false" (optional)
 
 ### Insert 'chrome' Folder
 
@@ -45,7 +45,7 @@ _(To find your profile folder, go to about:support on Firefox and look for the c
 
 3. Arrange toolbar items according to the example screenshot or to your liking
 
-4. Turn on Compact mode in settings (Settings > Appearance > Window density)
+4. Turn on Compact mode in settings (Settings > Appearance > Window density) (Unavailable if you set "browser.nova.enabled" to "false") 
 
 ## Known Issues
 
