@@ -9,7 +9,7 @@
 
 This repository serves as a fork of this CSS theme so that it remains compatible with the latest Firefox versions.
 
-**Latest compatible Firefox version: 158.0**
+**Latest compatible Firefox version: 160.0**
 
 ## Disclaimer
 
