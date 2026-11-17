@@ -1,7 +1,7 @@
 # 07Fox
 
-![07Fox with Retrobar and Stardock WindowBlinds eXperience11 skin applied](https://github.com/chuggermon/07Fox/blob/main/07Fox-example.png)
-<p align="center"> <i>07Fox with Retrobar and Stardock WindowBlinds eXperience11 skin applied</i></p>
+![07Fox preview](https://github.com/chuggermon/07Fox/blob/main/07Fox-example.png)
+<p align="center"> <i><b>07Fox</b> with <a href="https://windhawk.net/mods/windows-11-taskbar-styler">Windows 11 Taskbar Styler</a> and Stardock WindowBlinds Aero 11 skin applied.</i></p>
 
 ## About
 
@@ -55,6 +55,5 @@ Dragging tabs results in unwanted gap. Hope to one day fix this issue but for no
 
 I added an experimental dark mode modeled after Windows Media Player 11. To use it, follow the instructions below but use the chrome folder inside 'profile - Dark'.
 
-![07Fox Dark Mode with Retrobar and Stardock WindowBlinds eXperience11 skin applied](https://github.com/chuggermon/07Fox/blob/main/07Fox-dark-example.jpg)
-<p align="center"> <i>07Fox Dark Mode with Retrobar and Stardock WindowBlinds eXperience11 skin applied.</i></p>
-<p align="center"> <i>Windows Media Player with WMP 11 skin for comparison.</i></p>
+![07Fox Dark Mode preview](https://github.com/chuggermon/07Fox/blob/main/07Fox-dark-example.jpg)
+<p align="center"> <i><b>07Fox Dark Mode</b> with <a href="https://windhawk.net/mods/windows-11-taskbar-styler">Windows 11 Taskbar Styler</a> and Stardock WindowBlinds Aero 11 skin applied.</i></p>
